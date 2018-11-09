@@ -29,6 +29,7 @@ A few things to remember if you run into problems due to this update:
 Click below to see a full list of package versions in each of the kernels and how they change with this update. 
 
 <details><summary><strong><code>python2</code></strong></summary>
+
 | Package  | Summer 2018 |       | Fall 2018 |
 | :---     |        ---: | :---: | :---      |
 | `Automat` | 0.7.0 | = | 0.7.0 |
