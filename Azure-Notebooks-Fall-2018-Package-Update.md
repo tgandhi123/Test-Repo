@@ -350,6 +350,7 @@ Click below to see a full list of package versions in each of the kernels and ho
 </details>
 
 <details><summary><strong><code>python36</code></strong></summary>
+
 | Package  | Summer 2018 |       | Fall 2018 |
 | :---     |        ---: | :---: | :---      |
 | `Automat` | 0.7.0 | = | 0.7.0 |
