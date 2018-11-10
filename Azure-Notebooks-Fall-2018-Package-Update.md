@@ -24,9 +24,9 @@ A few things to remember if you run into problems due to this update:
 
 * Please reach out to us via our github issue tracker if you blocked by this change. 
 
-## List of package versions by kernel
+# List of package versions by kernel
 
-Click below to see a full list of package versions in each of the kernels and how they change with this update. 
+Click below to see a full list of package versions in each of the kernels.
 
 <details><summary><strong><code>python2</code></strong></summary>
 
@@ -85,10 +85,10 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `azure-kusto-data` | 0.0.11 | = | 0.0.11 |
 | `azure-kusto-ingest` | 0.0.11 | = | 0.0.11 |
 | `azure-nspkg` | 3.0.0 | < | 3.0.2 |
-| `azure-storage-blob` | 1.3.1 | = | 1.3.1 |
-| `azure-storage-common` | 1.3.0 | = | 1.3.0 |
-| `azure-storage-nspkg` | 3.0.0 | = | 3.0.0 |
-| `azure-storage-queue` | 1.3.0 | = | 1.3.0 |
+| `azure-storage-blob` | 1.3.1 | < | 1.4.0 |
+| `azure-storage-common` | 1.3.0 | < | 1.4.0 |
+| `azure-storage-nspkg` | 3.0.0 | < | 3.1.0 |
+| `azure-storage-queue` | 1.3.0 | < | 1.4.0 |
 | `azureml` | 0.2.7 | = | 0.2.7 |
 | `backports-abc` | 0.5 | = | 0.5 |
 | `backports.functools-lru-cache` | 1.4 | < | 1.5 |
@@ -101,12 +101,12 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `bkcharts` | 0.2 | = | 0.2 |
 | `blaze` | 0.11.3 | = | 0.11.3 |
 | `bleach` | 2.0.0 | > | 1.5.0 |
-| `bleach-whitelist` | 0.0.8 | = | 0.0.8 |
+| `bleach-whitelist` | 0.0.8 | < | 0.0.9 |
 | `bokeh` | 0.12.13 | < | 0.13.0 |
 | `boto` | 2.48.0 | < | 2.49.0 |
 | `boto3` | 1.4.8 | = | 1.4.8 |
 | `botocore` | 1.8.50 | = | 1.8.50 |
-| `bqplot` | 0.11.1 | = | 0.11.1 |
+| `bqplot` | 0.11.1 | < | 0.11.2 |
 | `brewer2mpl` | 1.4.1 | = | 1.4.1 |
 | `bz2file` | 0.98 | = | 0.98 |
 | `cdecimal` | 2.3 | = | 2.3 |
@@ -177,7 +177,7 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `jdcal` | 1.3 | < | 1.4 |
 | `jedi` | 0.10.2 | < | 0.12.1 |
 | `jmespath` | 0.9.3 | = | 0.9.3 |
-| `joblib` | 0.12.5 | = | 0.12.5 |
+| `joblib` | 0.12.5 | < | 0.13.0 |
 | `jsonschema` | 2.6.0 | = | 2.6.0 |
 | `jupyter` | — | (new) | 1.0.0 |
 | `jupyter-client` | 5.1.0 | < | 5.2.3 |
@@ -242,7 +242,7 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `phonenumbers` | 8.9.14 | < | 8.9.16 |
 | `pickleshare` | 0.7.4 | = | 0.7.4 |
 | `pkginfo` | 1.4.1 | < | 1.4.2 |
-| `plotly` | 3.3.0 | < | 3.4.0 |
+| `plotly` | 3.3.0 | < | 3.4.1 |
 | `pluggy` | — | (new) | 0.7.1 |
 | `ply` | 3.10 | < | 3.11 |
 | `prettypandas` | 0.0.4 | = | 0.0.4 |
@@ -414,25 +414,25 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `atomicwrites` | — | (new) | 1.2.1 |
 | `attrs` | 18.2.0 | = | 18.2.0 |
 | `azure-cli-command-modules-nspkg` | 2.0.2 | = | 2.0.2 |
-| `azure-cli-core` | 2.0.46 | < | 2.0.49 |
+| `azure-cli-core` | 2.0.46 | < | 2.0.50 |
 | `azure-cli-nspkg` | 3.0.3 | = | 3.0.3 |
-| `azure-cli-profile` | 2.1.1 | = | 2.1.1 |
+| `azure-cli-profile` | 2.1.1 | < | 2.1.2 |
 | `azure-cli-telemetry` | 1.0.0 | = | 1.0.0 |
 | `azure-common` | 1.1.16 | = | 1.1.16 |
 | `azure-graphrbac` | 0.40.0 | < | 0.52.0 |
 | `azure-kusto-data` | 0.0.11 | = | 0.0.11 |
 | `azure-kusto-ingest` | 0.0.11 | = | 0.0.11 |
 | `azure-mgmt-authorization` | 0.50.0 | = | 0.50.0 |
-| `azure-mgmt-containerregistry` | 2.2.0 | < | 2.3.0 |
+| `azure-mgmt-containerregistry` | 2.2.0 | < | 2.4.0 |
 | `azure-mgmt-keyvault` | 1.1.0 | = | 1.1.0 |
 | `azure-mgmt-nspkg` | 2.0.0 | < | 3.0.2 |
 | `azure-mgmt-resource` | 2.0.0 | = | 2.0.0 |
 | `azure-mgmt-storage` | 3.0.0 | = | 3.0.0 |
 | `azure-nspkg` | 2.0.0 | < | 3.0.2 |
-| `azure-storage-blob` | 1.3.1 | = | 1.3.1 |
-| `azure-storage-common` | 1.3.0 | = | 1.3.0 |
-| `azure-storage-nspkg` | 3.0.0 | = | 3.0.0 |
-| `azure-storage-queue` | 1.3.0 | = | 1.3.0 |
+| `azure-storage-blob` | 1.3.1 | < | 1.4.0 |
+| `azure-storage-common` | 1.3.0 | < | 1.4.0 |
+| `azure-storage-nspkg` | 3.0.0 | < | 3.1.0 |
+| `azure-storage-queue` | 1.3.0 | < | 1.4.0 |
 | `azureml-core` | 0.1.65 | < | 0.1.74 |
 | `azureml-dataprep` | — | (new) | 0.3.0 |
 | `azureml-dataprep-native` | — | (new) | 10.4.0 |
@@ -462,7 +462,7 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `boto` | 2.48.0 | < | 2.49.0 |
 | `boto3` | 1.4.8 | = | 1.4.8 |
 | `botocore` | 1.8.50 | = | 1.8.50 |
-| `bqplot` | 0.11.1 | = | 0.11.1 |
+| `bqplot` | 0.11.1 | < | 0.11.2 |
 | `brewer2mpl` | 1.4.1 | = | 1.4.1 |
 | `bz2file` | — | (new) | 0.98 |
 | `certifi` | 2017.7.27.1 | < | 2018.8.24 |
@@ -510,7 +510,7 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `graphviz` | 0.9 | < | 0.10.1 |
 | `greenlet` | 0.4.12 | < | 0.4.15 |
 | `grpcio` | 1.15.0 | < | 1.16.0 |
-| `gym` | 0.10.5 | < | 0.10.8 |
+| `gym` | 0.10.5 | < | 0.10.9 |
 | `h5py` | 2.8.0 | = | 2.8.0 |
 | `hdmedians` | — | (new) | 0.13 |
 | `heapdict` | 1.0.0 | = | 1.0.0 |
@@ -533,7 +533,7 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `jedi` | 0.10.2 | < | 0.12.1 |
 | `jeepney` | — | (new) | 0.4 |
 | `jmespath` | 0.9.3 | = | 0.9.3 |
-| `joblib` | 0.12.5 | = | 0.12.5 |
+| `joblib` | 0.12.5 | < | 0.13.0 |
 | `jsonpickle` | 1.0 | = | 1.0 |
 | `jsonschema` | 2.6.0 | = | 2.6.0 |
 | `jupyter` | — | (new) | 1.0.0 |
@@ -547,7 +547,7 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `keyring` | — | (new) | 13.2.1 |
 | `kiwisolver` | — | (new) | 1.0.1 |
 | `klein` | 17.10.0 | = | 17.10.0 |
-| `knack` | 0.4.3 | < | 0.4.4 |
+| `knack` | 0.4.3 | < | 0.4.5 |
 | `lancet-ioam` | — | (new) | 0.9.0 |
 | `lazy-object-proxy` | 1.3.1 | = | 1.3.1 |
 | `libarchive-c` | — | (new) | 2.8 |
@@ -608,7 +608,7 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `phonenumbers` | 8.9.14 | < | 8.9.16 |
 | `pickleshare` | 0.7.4 | < | 0.7.5 |
 | `pkginfo` | 1.4.1 | < | 1.4.2 |
-| `plotly` | 3.3.0 | < | 3.4.0 |
+| `plotly` | 3.3.0 | < | 3.4.1 |
 | `pluggy` | — | (new) | 0.7.1 |
 | `ply` | 3.10 | < | 3.11 |
 | `portalocker` | 1.2.1 | = | 1.2.1 |
@@ -788,10 +788,10 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `azure-mgmt-resource` | 2.0.0 | (del) | — |
 | `azure-mgmt-storage` | 3.0.0 | (del) | — |
 | `azure-nspkg` | 2.0.0 | < | 3.0.2 |
-| `azure-storage-blob` | 1.3.1 | = | 1.3.1 |
-| `azure-storage-common` | 1.3.0 | = | 1.3.0 |
-| `azure-storage-nspkg` | 3.0.0 | = | 3.0.0 |
-| `azure-storage-queue` | 1.3.0 | = | 1.3.0 |
+| `azure-storage-blob` | 1.3.1 | < | 1.4.0 |
+| `azure-storage-common` | 1.3.0 | < | 1.4.0 |
+| `azure-storage-nspkg` | 3.0.0 | (del) | — |
+| `azure-storage-queue` | 1.3.0 | < | 1.4.0 |
 | `azureml` | 0.2.7 | = | 0.2.7 |
 | `azureml-core` | 0.1.65 | (del) | — |
 | `azureml-pipeline` | 0.1.65 | (del) | — |
@@ -814,7 +814,7 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `boto` | 2.42.0 | = | 2.42.0 |
 | `boto3` | 1.4.8 | = | 1.4.8 |
 | `botocore` | 1.8.50 | = | 1.8.50 |
-| `bqplot` | 0.11.1 | = | 0.11.1 |
+| `bqplot` | 0.11.1 | < | 0.11.2 |
 | `brewer2mpl` | 1.4.1 | = | 1.4.1 |
 | `certifi` | 2018.8.24 | (del) | — |
 | `cffi` | 1.7.0 | = | 1.7.0 |
@@ -857,7 +857,7 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `graphviz` | 0.9 | < | 0.10.1 |
 | `greenlet` | 0.4.10 | = | 0.4.10 |
 | `grpcio` | 1.15.0 | < | 1.16.0 |
-| `gym` | 0.10.5 | < | 0.10.8 |
+| `gym` | 0.10.5 | < | 0.10.9 |
 | `h5py` | 2.7.1 | = | 2.7.1 |
 | `holoviews` | 1.8.3 | = | 1.8.3 |
 | `humanfriendly` | 4.16.1 | (del) | — |
@@ -874,7 +874,7 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `jdcal` | 1.2 | = | 1.2 |
 | `jedi` | 0.11.0 | = | 0.11.0 |
 | `jmespath` | 0.9.3 | = | 0.9.3 |
-| `joblib` | 0.12.5 | = | 0.12.5 |
+| `joblib` | 0.12.5 | < | 0.13.0 |
 | `jsonpickle` | 1.0 | (del) | — |
 | `jsonschema` | 2.5.1 | = | 2.5.1 |
 | `jupyter` | 1.0.0 | = | 1.0.0 |
@@ -914,7 +914,7 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `notebook` | 5.0.0 | = | 5.0.0 |
 | `numba` | 0.28.1 | = | 0.28.1 |
 | `numexpr` | 2.6.2 | = | 2.6.2 |
-| `numpy` | 1.15.2 | < | 1.15.3 |
+| `numpy` | 1.15.2 | < | 1.15.4 |
 | `oauthlib` | 2.1.0 | (del) | — |
 | `odo` | 0.5.0 | = | 0.5.0 |
 | `olefile` | 0.44 | = | 0.44 |
@@ -935,7 +935,7 @@ Click below to see a full list of package versions in each of the kernels and ho
 | `phonenumbers` | 8.9.14 | < | 8.9.16 |
 | `pickleshare` | 0.7.4 | = | 0.7.4 |
 | `pkginfo` | 1.3.2 | = | 1.3.2 |
-| `plotly` | 3.3.0 | < | 3.4.0 |
+| `plotly` | 3.3.0 | < | 3.4.1 |
 | `ply` | 3.9 | = | 3.9 |
 | `portalocker` | 1.2.1 | (del) | — |
 | `prettypandas` | 0.0.4 | = | 0.0.4 |
