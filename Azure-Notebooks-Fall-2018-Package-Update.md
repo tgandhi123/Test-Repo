@@ -1,4 +1,4 @@
-Azure Notebooks are releasing an update to our Jupyter kernel image.  This updates the versions of the packages that are pre-installed on our Jupyter kernels. We strongly advise that you test your notebooks using this new image and work through the necessary updates to ensure that the updated packages work well with your notebook. Please read on for more information about these changes. 
+Azure Notebooks is releasing an update to our Jupyter kernel image.  This updates the versions of the packages that are pre-installed on our Jupyter kernels. We strongly advise that you test your notebooks using this new image and work through the necessary updates to ensure that the updated packages work well with your notebook. Please read on for more information about these changes. 
 
 -- Azure Notebooks Team 2018-11-09
 
