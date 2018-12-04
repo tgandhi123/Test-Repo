@@ -3,11 +3,17 @@ The Azure Notebooks team is excited to share with you our latest update that we 
 # Refreshed Azure Notebooks User Interface 
 We have a refreshed user interface at https://notebooks.azure.com; based on your feedback, we’ve improved a number of things in our refreshed user interface: 
   
-1. Libraries are now more appropriately named projects. They function just like the libraries you are used to, but we’ve made it easier to create and maintain your content.  
+1. Libraries are now more appropriately named projects. They function just like the libraries you are used to, but we’ve made it easier to create and maintain your content.
+  
+[[https://github.com/Microsoft/AzureNotebooks/blob/master/wiki_images/my_projects.png]]
 
 2. The site now supports notifications that we will use to keep you informed of new features and additions to Azure Notebooks.  
 
+[[https://github.com/Microsoft/AzureNotebooks/blob/master/wiki_images/home_page.png]]
+
 3. The site homepage is now more alive with featured and popular content from the Jupyter community.  
+
+[[https://github.com/Microsoft/AzureNotebooks/blob/master/wiki_images/home_page_featured_projects.png]]
 
 # Connect Notebooks to your own Azure Compute  
 If you are signed into Azure Notebooks with an account associated with an Azure Subscription ([which you can get for FREE with $200 credit](https://azure.microsoft.com/en-us/free/)), then you will enjoy easier and deeper integration with your Azure resources. Besides the free compute that Azure Notebooks provides, users with Azure subscriptions can create Linux Data Science Virtual Machines (DSVMs) and use them to run their notebooks. This is particularly useful if you have computationally expensive workloads, such as training deep learning models using GPUs. 
@@ -16,7 +22,12 @@ Get started now [provisioning a Linux DSVM](https://azure.microsoft.com/en-us/se
 
 If you have an account provided by your work or school, Azure Notebooks will discover the DSVMs that you have access to and list them into a menu under the run button. Choose the DSVM that you would like to connect to and enter the user name and password of the Linux account on the DSVM.  
 
+[[https://github.com/Microsoft/AzureNotebooks/blob/master/wiki_images/cricket_chirps.png]]
+
+
 If you have a Microsoft Account (e.g. @outlook.com or @hotmail.com), you can connect to a DSVM directly using its IP address. Choose the Direct Compute option from the Run menu.  
+
+[[https://github.com/Microsoft/AzureNotebooks/blob/master/wiki_images/cricket_chirps_2.png]]
 
 ### GPU
 If you are a Microsoft employee, you will also be able to connect to GPU and provide feedback to the Azure Notebooks team. We are testing GPU support internally and we are excited about enabling this for all our users in the future. If you are not a Microsoft employee, please use the Azure Notebooks support link to let us know about the scenarios and kinds of notebooks that you would want to run on GPUs.  
@@ -28,6 +39,8 @@ You can now authorize a project and its notebooks to access Azure resources on y
 By clicking on the Grant access button in this dialog, you are making your Azure subscriptions and credentials available to any code running in this Project. Once you have granted access, notebooks can create and access Azure resources on your behalf. For example, you can import data from Azure Storage or export results to Azure Machine Learning Workspaces.
 
 You should, of course, grant access only to Projects that contain code that you trust. 
+
+[[https://github.com/Microsoft/AzureNotebooks/blob/master/wiki_images/jit.png]]
 
 # Azure Notebooks integration with Azure Machine Learning workspaces  
 We have integrated the [Azure Machine Learning Service](https://aka.ms/amlfree) with Azure Notebooks by making the Azure Machine Learning SDK available to all code running in the Python 3.6 kernel. This, combined with Azure Subscription support, makes it easy for data scientists to train and optimize machine learning models using the rich set of compute resources available on Azure, and deploy them to Azure for inferencing.   
